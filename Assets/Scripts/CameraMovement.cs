@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    //カメラには必ずrigidbody2dを付けること。付けないと遊びが出来てしまう。
     public Transform target;
     public float smoothing;
     public Vector2 maxPosition; //カメラの動く範囲を制御ための数値(画面右上)
