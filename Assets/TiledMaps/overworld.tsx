@@ -6,7 +6,21 @@
  <image source="../Art/gfx/Overworld.png" width="640" height="576"/>
  <terraintypes>
   <terrain name="path" tile="-1"/>
+  <terrain name="pond" tile="283"/>
  </terraintypes>
+ <tile id="242" terrain=",,,1"/>
+ <tile id="243" terrain=",,1,1"/>
+ <tile id="244" terrain=",,1,"/>
+ <tile id="282" terrain=",1,,1"/>
+ <tile id="283" terrain="1,1,1,1"/>
+ <tile id="284" terrain="1,,1,"/>
+ <tile id="322" terrain=",1,,"/>
+ <tile id="323" terrain="1,1,,"/>
+ <tile id="324" terrain="1,,,"/>
+ <tile id="362" terrain="1,1,1,"/>
+ <tile id="363" terrain="1,1,,1"/>
+ <tile id="402" terrain="1,,1,1"/>
+ <tile id="403" terrain=",1,1,1"/>
  <tile id="1160" terrain=",,,0"/>
  <tile id="1161" terrain=",,0,0"/>
  <tile id="1162" terrain=",,0,"/>
