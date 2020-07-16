@@ -48,12 +48,12 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("attacking", true);
         yield return null;
         animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(0.3f);//0.1f待つ
+        yield return new WaitForSeconds(1f);//0.1f待つ
         currentState = PlayerState.walk;
     }
 
     void UpdateAnimationAndMove() {
-        if (change != Vector3.zero) {
+        if (change != Vector3.zero && currentState != PlayerState.attack) {
             MoveCharacter();
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
