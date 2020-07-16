@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>(); 
         myRigidbody = GetComponent<Rigidbody2D>();
+        animator.SetFloat("moveX",  0); //Part14で追加。
+        animator.SetFloat("moveY", -1); //同上
     }
 
     // Update is called once per frame
@@ -40,15 +42,15 @@ public class PlayerMovement : MonoBehaviour
     //http://mediamonster.blog.fc2.com/blog-entry-23.html
     private void Update() {
         if (Input.GetButtonDown("attack") && currentState != PlayerState.attack) {
-            StartCoroutine(AttackCo());//コルーチン
+            StartCoroutine(AttackCo());//コルーチン。https://www.sejuku.net/blog/83712
         }
     }
 
     private IEnumerator AttackCo() {
         animator.SetBool("attacking", true);
-        yield return null;
+        yield return null;//ワンフレーム停止
         animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(1f);//0.1f待つ
+        yield return new WaitForSeconds(1f);//1f待つ
         currentState = PlayerState.walk;
     }
 
@@ -64,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void MoveCharacter() {
+        change.Normalize(); //Part14で追加。ベクトルの正規化。斜めでも１になる。
         myRigidbody.MovePosition(
             transform.position + change * speed * Time.deltaTime);
     }
