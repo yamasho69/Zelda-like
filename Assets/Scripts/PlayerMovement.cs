@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
+    public FloatValue currentHealth;//Part23で追加。
+    public Signal playerHealthSignal;//Part24で追加。
 
     // Start is called before the first frame update
     void Start()
@@ -74,8 +76,12 @@ public class PlayerMovement : MonoBehaviour
             transform.position + change * speed * Time.deltaTime);
     }
 
-    public void Knock(float knockTime) {
-        StartCoroutine(KnockCo(knockTime));
+    public void Knock(float knockTime,float damage) {//damageでPart24で追加。
+        currentHealth.initialValue -= damage;//currentHealthからdamageを引く。
+        if (currentHealth.initialValue > 0) {//Part24で追加。　https://create.unity3d.com/jp-protips-architect-with-scriptable-objects?elqTrackId=110800b3268644bc9340264f8cc7f818&elq=00000000000000000000000000000000&elqaid=2115&elqat=2&elqCampaignId=
+            playerHealthSignal.Raise();
+            StartCoroutine(KnockCo(knockTime));//damageを引かれても、currentHealthが1以上なら生きているのでノックバックする。
+        }
     }
 
     //Part20で追加
