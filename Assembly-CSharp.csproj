@@ -72,7 +72,9 @@
     <Compile Include="Assets\Scripts\Pot.cs" />
     <Compile Include="Assets\Scripts\RoomMove.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\FloatValue.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\Signal.cs" />
     <Compile Include="Assets\Scripts\Sign.cs" />
+    <Compile Include="Assets\Scripts\SignalListener.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
