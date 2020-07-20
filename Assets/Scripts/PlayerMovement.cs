@@ -82,9 +82,7 @@ public class PlayerMovement : MonoBehaviour
         if (currentHealth.RuntimeValue > 0) {//Part24で追加。　https://create.unity3d.com/jp-protips-architect-with-scriptable-objects?elqTrackId=110800b3268644bc9340264f8cc7f818&elq=00000000000000000000000000000000&elqaid=2115&elqat=2&elqCampaignId=
             StartCoroutine(KnockCo(knockTime));//damageを引かれても、currentHealthが1以上なら生きているのでノックバックする。
         } else {
-            //this.gameObject.SetActive(false);//Part25で追加。ライフゼロでプレイヤー消える。
-            GetComponent<SpriteRenderer>().enabled = false;//Playerをfalseにすると子オブジェクトのカメラも消えるため、こちらにとりあえず変更。
-            GetComponent<PlayerMovement>().enabled = false;//http://yasavegitable.hatenablog.com/entry/2013/03/01/210718
+            this.gameObject.SetActive(false);//Part25で追加。ライフゼロでプレイヤー消える。
         }
     }
 
