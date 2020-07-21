@@ -7,6 +7,7 @@
  <terraintypes>
   <terrain name="path" tile="-1"/>
   <terrain name="pond" tile="283"/>
+  <terrain name="Road" tile="496"/>
  </terraintypes>
  <tile id="242" terrain=",,,1"/>
  <tile id="243" terrain=",,1,1"/>
@@ -21,6 +22,19 @@
  <tile id="363" terrain="1,1,,1"/>
  <tile id="402" terrain="1,,1,1"/>
  <tile id="403" terrain=",1,1,1"/>
+ <tile id="455" terrain=",,,2"/>
+ <tile id="456" terrain=",,2,2"/>
+ <tile id="457" terrain=",,2,"/>
+ <tile id="495" terrain=",2,,2"/>
+ <tile id="496" terrain="2,2,2,2"/>
+ <tile id="497" terrain="2,,2,"/>
+ <tile id="535" terrain=",2,,"/>
+ <tile id="536" terrain="2,2,,"/>
+ <tile id="537" terrain="2,,,"/>
+ <tile id="575" terrain="2,2,2,"/>
+ <tile id="576" terrain="2,2,,2"/>
+ <tile id="615" terrain="2,,2,2"/>
+ <tile id="616" terrain=",2,2,2"/>
  <tile id="1160" terrain=",,,0"/>
  <tile id="1161" terrain=",,0,0"/>
  <tile id="1162" terrain=",,0,"/>

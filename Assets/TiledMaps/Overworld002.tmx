@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="42">
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="43">
  <editorsettings>
   <export target="OverworldTest..tmx" format="tmx"/>
  </editorsettings>
@@ -80,5 +80,6 @@
   <object id="41" x="78.1138" y="96.6897">
    <polygon points="0,0 0,178.614 30.9598,177.185 32.3887,195.761 245.773,195.761 244.344,161.467 259.586,162.896 258.633,60.0143 242.915,60.0143 244.344,30.0071 212.908,28.5782 212.908,14.2891 180.043,11.4313 180.995,-2.85782 5.71565,-1.42891 83.8295,34.2939 191.474,35.7228 190.045,60.0143 174.327,60.0143 173.851,82.8769 208.621,82.8769 208.621,141.462 190.045,141.462 190.998,171.469 115.742,171.469 115.742,157.18 95.7371,157.18 95.7371,174.327 52.8697,174.327 52.8697,145.749 66.6825,145.749 68.5878,127.173 50.9645,125.744 52.3934,50.0119 82.4006,50.0119 83.8295,35.7228"/>
   </object>
+  <object id="42" x="88.4545" y="105"/>
  </objectgroup>
 </map>
