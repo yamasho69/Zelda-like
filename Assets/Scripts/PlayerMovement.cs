@@ -19,14 +19,17 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     public FloatValue currentHealth;//Part23で追加。
     public Signal playerHealthSignal;//Part24で追加。
+    public VectorValue startingPosition;//Part28で追加。
 
     // Start is called before the first frame update
     void Start()
     {
+        currentState = PlayerState.walk;
         animator = GetComponent<Animator>(); 
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX",  0); //Part14で追加。
         animator.SetFloat("moveY", -1); //同上
+        transform.position = startingPosition.initialValue;//Part28で追加。
     }
 
     // Update is called once per frame
