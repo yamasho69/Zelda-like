@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
     <Compile Include="Assets\Scripts\Objects\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Objects\Sign.cs" />
+    <Compile Include="Assets\Scripts\Objects\TreasureChest.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\ContextClue.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\HeartManager.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerHit.cs" />
