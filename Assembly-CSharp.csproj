@@ -80,6 +80,8 @@
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerHit.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\FloatValue.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\Inventory.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\Item.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\Signal.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\VectorValue.cs" />
     <Compile Include="Assets\Scripts\SignalListener.cs" />
