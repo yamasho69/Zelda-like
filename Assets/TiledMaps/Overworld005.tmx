@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="45">
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="48">
  <editorsettings>
-  <export format="tmx"/>
+  <export target="." format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="overworld.tsx"/>
  <layer id="1" name="Ground" width="25" height="25">
@@ -120,5 +120,8 @@
   </object>
   <object id="43" x="223.75" y="0.75" width="47.5" height="30.75"/>
   <object id="44" x="129.75" y="0.5" width="46" height="31"/>
+  <object id="45" x="177" y="10"/>
+  <object id="46" x="197.25" y="9.75"/>
+  <object id="47" x="215.25" y="10.5"/>
  </objectgroup>
 </map>
