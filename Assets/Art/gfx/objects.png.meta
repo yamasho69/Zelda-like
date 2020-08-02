@@ -1635,10 +1635,10 @@ TextureImporter:
       name: objects_59
       rect:
         serializedVersion: 2
-        x: 2
-        y: 243
-        width: 11
-        height: 11
+        x: 0
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1656,10 +1656,10 @@ TextureImporter:
       name: objects_60
       rect:
         serializedVersion: 2
-        x: 18
-        y: 243
-        width: 11
-        height: 11
+        x: 16
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1677,10 +1677,10 @@ TextureImporter:
       name: objects_61
       rect:
         serializedVersion: 2
-        x: 50
-        y: 243
-        width: 11
-        height: 11
+        x: 48
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3294,10 +3294,10 @@ TextureImporter:
       name: objects_73
       rect:
         serializedVersion: 2
-        x: 34
-        y: 243
-        width: 11
-        height: 11
+        x: 32
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
