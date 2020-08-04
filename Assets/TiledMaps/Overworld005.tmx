@@ -120,8 +120,6 @@
   </object>
   <object id="43" x="223.75" y="0.75" width="47.5" height="30.75"/>
   <object id="44" x="129.75" y="0.5" width="46" height="31"/>
-  <object id="45" x="177" y="10"/>
-  <object id="46" x="197.25" y="9.75"/>
-  <object id="47" x="215.25" y="10.5"/>
+  <object id="45" x="170.25" y="0.25" width="59.75" height="23.25"/>
  </objectgroup>
 </map>

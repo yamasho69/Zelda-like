@@ -71,14 +71,14 @@
     <Compile Include="Assets\Scripts\Game Stuff\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\CoinTextManager.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\Knockback.cs" />
+    <Compile Include="Assets\Scripts\Game Stuff\RoomMove.cs" />
+    <Compile Include="Assets\Scripts\Game Stuff\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Objects\Coin.cs" />
     <Compile Include="Assets\Scripts\Objects\Door.cs" />
     <Compile Include="Assets\Scripts\Objects\Heart.cs" />
     <Compile Include="Assets\Scripts\Objects\Interactable.cs" />
     <Compile Include="Assets\Scripts\Objects\Pot.cs" />
     <Compile Include="Assets\Scripts\Objects\Powerup.cs" />
-    <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
-    <Compile Include="Assets\Scripts\Objects\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Objects\Sign.cs" />
     <Compile Include="Assets\Scripts\Objects\TreasureChest.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\ContextClue.cs" />
