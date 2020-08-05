@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Art\gfx\enemy\FreePixelMob\Mobs.cs" />
     <Compile Include="Assets\Art\gfx\enemy\FreePixelMob\StateRandom.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\AreaEnemy.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Log.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\PatrolLog.cs" />

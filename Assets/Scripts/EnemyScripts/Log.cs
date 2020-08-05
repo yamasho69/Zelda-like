@@ -7,10 +7,13 @@ using UnityEngine;
 public class Log : Enemy
 {
     public Rigidbody2D myRigidbody2D; //Part34でpublicに変更。
+    [Header("Target Variables")]
     public Transform target;
     public float chaseRadius;//追跡半径
     public float attackRadius;//攻撃半径 大きいと主人公がダメージを受けない
     public Transform homePosition;//ホームポジション
+
+    [Header("Animator")]
     public Animator anim;
 
     // Start is called before the first frame update
@@ -73,7 +76,7 @@ public class Log : Enemy
     }
 
     //Part19で追加。
-    private void ChangeState(EnemyState newState) {
+    public void ChangeState(EnemyState newState) {
         if(currentState != newState) {
             currentState = newState;
         }
