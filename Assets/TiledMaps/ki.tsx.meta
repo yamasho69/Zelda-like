@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fef543a81fc0ede46b4e7cd595aab170
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
+  missingFiles: []
+  errors:
+  - "Missing texture asset: ../../../../FreeMapChip/\u30A6\u30C7\u30A3\u30BF\u540C\u68B1\u30DE\u30C3\u30D7\u30C1\u30C3\u30D7\u30BB\u30C3\u30C8\u62E1\u5F35\u30D1\u30FC\u30C4\u307E\u3068\u3081/ki.png"
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 10
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048
